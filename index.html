@@ -1,12 +1,564 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title></title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="css/style.css" rel="stylesheet">
-	</head>
-	<body>
-	
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Condiment" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scrolling Nav -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- modal -->
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+
+
+
+    <!--Modal-->
+
+
+
+
+
+
+
+    <!-- background first parallax -->
+    <div class="bg"></div>
+
+    <!-- debut navigation -->
+    <div class="container-full">
+
+
+
+
+    <!-- header -->
+    <nav class="navbar navbar-default navbar-fixed-top header-atyp" role="navigation">
+      <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" alt=""></a>
+        </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+              <a class="page-scroll" href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#concept">notre concept</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#restaurants">les restaurants</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#franchise">devenez franchisé</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#job">jobs</a>
+            </li>
+            <li>
+              <!--<a class="page-scroll" href="#contact">contactez-nous</a>-->
+              <a data-toggle="modal" data-target="#myModal">>contactez-nous</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+<!-- / header -->
+
+
+
+<!-- bannière -->
+
+      <div class="jumbotron text-center">
+        <h1>Les Restaurants atypiques</h1>
+        <img src="img/logo.png" alt="Les Restaurants atypiques" class="logo shadowed animated bounceIn">
+      </div>
+
+<!-- / bannière -->
+
+
+
+  	  <div class="container" id="concept">
+      <div class="row">
+
+        <div class="col-lg-4 chapter concept">
+          <h2>Un concept unique</h2>
+          <p>Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis tunc Honoratus fixa constantia restitisset</p>
+        </div>
+        <div class="col-lg-4 chapter concept">
+          <h2>Une expérience singulière</h2>
+          <p>Advenit post multos Scudilo Scutariorum tribunus velamento subagrestis ingenii persuasionis opifex callidus. qui eum adulabili sermone seriis admixto solus omnium proficisci pellexit vultu adsimulato saepius replicando quod flagrantibus votis eum videre frater cuperet patruelis, siquid per inprudentiam gestum est remissurus ut mitis et clemens, participemque eum suae maiestatis adscisceret, futurum laborum quoque socium, quos Arctoae provinciae diu fessae poscebant.</p>
+        </div>
+        <div class="col-lg-4 chapter concept">
+          <h2>Parce que vous le valez bien</h2>
+          <p>Fieri, inquam, Triari, nullo pacto potest, ut non dicas, quid non probes eius, a quo dissentias. quid enim me prohiberet Epicureum esse, si probarem, quae ille diceret? cum praesertim illa perdiscere ludus esset.</p>
+        </div>
+
+        <div class="col-lg-4 col-lg-offset-2 chapter ">
+
+          <!-- restauhasard (un resto au hasard)
+          <div class="item">
+            <div class="photoRestau restau1"></div>
+				    <div class="descRestau"><h3>La Loupe</h3>
+              <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit;
+              </p>
+
+              <button class="md-trigger" data-modal="modal-1">Fade in &amp; Scale</button>
+
+            </div>
+          </div>
+          <div class="item">
+            <div class="photoRestau restau2"></div>
+				    <div class="descRestau"><h3>Fontainebleau</h3>
+              <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit;
+              </p>
+
+              <button class="md-trigger">En savoir plus</button>
+
+            </div>
+          </div>
+          <div class="item">
+            <div class="photoRestau restau3"></div>
+				    <div class="descRestau"><h3>Orléans</h3>
+              <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit;
+              </p>
+
+              <button class="md-trigger">En savoir plus</button>
+
+            </div>
+          </div>
+          <div class="item">
+            <div class="photoRestau restau4"></div>
+				    <div class="descRestau"><h3>Bordeaux</h3>
+              <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit;
+              </p>
+
+              <button class="md-trigger">En savoir plus</button>
+
+            </div>
+          </div>
+          <div class="item">
+            <div class="photoRestau restau5"></div>
+				    <div class="descRestau"><h3>Lyon</h3>
+              <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit;
+              </p>
+
+              <button class="md-trigger">En savoir plus</button>
+
+            </div>
+          </div>
+          <div class="item">
+            <div class="photoRestau restau6"></div>
+				    <div class="descRestau"><h3>Toulouse</h3>
+              <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit;
+              </p>
+
+              <button class="md-trigger">En savoir plus</button>
+
+            </div>
+          </div>
+          / restauhasard -->
+
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <div class="row" id="about">
+
+
+
+      </div>
+      <!-- /.row -->
+
+
+      </div>
+      <!-- /.container -->
+
+
+
+<!-- Callout section start -->
+
+	<section id="callout-one" class="callout parallax">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+					<img  id="restaurants" src="img/carte.png" alt="carte des restaurants" usemap="#Map" class="carte">
+<map name="Map" id="Map">
+    <area alt="" title="" href="#fontainebleau" shape="poly" coords="348,240,533,229,534,366,352,372" />
+    <area alt="" title="" href="#orleans" shape="poly" coords="463,377,572,372,579,453,464,458" />
+    <area alt="" title="" href="#lyon" shape="poly" coords="484,516,573,509,578,585,490,587" />
+    <area alt="" title="" href="#bordeaux" shape="poly" coords="263,622,396,616,397,702,275,714" />
+    <area alt="" title="" href="#toulouse" shape="poly" coords="302,732,431,715,432,809,311,822" />
+    <area alt="" title="" href="#laloupe" shape="poly" coords="213,334,340,318,344,419,216,420" />
+    [...]
+</map>
+				</div>
+			</div><!-- /.row -->
+
+		</div><!-- /.container -->
+	</section>
+
+	<!-- Callout section end -->
+
+
+
+
+
+
+
+
+
+<!-- restaurants -->
+<div class="container">
+
+  <div class="row content restau" id="laloupe">
+				<div class="col-xs-12 col-sm-6 photoRestau restau1"></div>
+				<div class="col-xs-12 col-sm-6 descRestau"><h2>La Loupe</h2>
+
+          <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
+
+          </p>
+
+          <!--bouton Modal-->
+
+
+        </div>
+			</div>
+			<div class="row content restau" id="fontainebleau">
+				<div class="col-xs-12 col-sm-6 photoRestau right restau2"></div>
+				<div class="col-xs-12 col-sm-6 descRestau"><h2>Fontainebleau</h2>
+
+          <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
+
+          </p>
+
+          <!--bouton Modal-->
+
+
+        </div>
+			</div>
+			<div class="row content restau" id="orleans">
+        <div class="col-xs-12 col-sm-6 photoRestau restau3"></div>
+				<div class="col-xs-12 col-sm-6 descRestau"><h2>Orléans</h2>
+
+          <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
+
+          </p>
+
+          <!--bouton Modal-->
+
+
+        </div>
+			</div>
+			<div class="row content restau" id="bordeaux">
+        <div class="col-xs-12 col-sm-6 photoRestau right restau4"></div>
+				<div class="col-xs-12 col-sm-6 descRestau"><h2>Bordeaux</h2>
+
+          <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
+
+          </p>
+
+          <!--bouton Modal-->
+
+
+        </div>
+			</div>
+			<div class="row content restau" id="lyon">
+        <div class="col-xs-12 col-sm-6 photoRestau restau5"></div>
+				<div class="col-xs-12 col-sm-6 descRestau"><h2>Lyon</h2>
+
+          <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
+
+          </p>
+
+          <!--bouton Modal-->
+
+
+        </div>
+			</div>
+			<div class="row content restau" id="toulouse">
+        <div class="col-xs-12 col-sm-6 photoRestau right restau6"></div>
+				<div class="col-xs-12 col-sm-6 descRestau"><h2>Toulouse</h2>
+
+          <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
+
+          </p>
+
+          <!--bouton Modal-->
+
+
+        </div>
+			</div>
+      <!-- /.row -->
+
+</div>
+      <!-- /restaurants -->
+
+
+
+<!-- Callout section start -->
+
+	<section id="callout-two" class="callout parallax">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+				</div>
+			</div><!-- /.row -->
+
+		</div><!-- /.container -->
+	</section>
+
+	<!-- Callout section end -->
+
+
+
+  <div class="container" id="franchise">
+
+    <div class="row">
+
+      <div class="col-lg-6 chapter">
+
+
+        <p>Vous avez un restaurant et vous souhaitez rejoindre notre réseau ? Vous avez un projet d'ouverture ?</p>
+        <h2>Contactez-nous :</h2>
+
+
+        <form>
+            <div class="form-group">
+              <input type="text" class="form" id="inputPrenom" placeholder="Prénom">
+              <input type="text" class="form" id="inputNom" placeholder="Nom">
+              <input type="text" class="form" id="inputAdresse" placeholder="Adresse">
+              <input type="text" class="form" id="inputCodePostal" placeholder="Code postal">
+              <input type="text" class="form" id="inputVille" placeholder="Commune">
+              <input type="text" class="form" id="inputTelephone" placeholder="Téléphone">
+              <input type="text" class="form" id="inputEmail" placeholder="E-mail">
+              <textarea class="form" id="exampleTextarea" rows="3" placeholder="Parlez-nous de votre projet."></textarea>
+            </div>
+
+          <div class="form-group">
+            <h5>Comment vous avez nous connu ? (plusieurs choix possible)</h5>
+            <select multiple class="form" id="exampleSelect2">
+            <option>Par un article de presse, reportage radio ou télé</option>
+            <option>Par une publicité</option>
+            <option>Par le bouche à oreille</option>
+            <option>Par une recherche sur internet</option>
+            <option>Au congrès annuel des restaurateurs pas banals</option>
+            <option>Dans un de nos restaurants</option>
+            </select>
+            <button type="submit" class="btn btn-primary btn-sm">Envoyer</button>
+          </div>
+
+
+        </form>
+
+
+      </div>
+
+      <div class="col-lg-4 col-lg-offset-2 chapter">
+        <h2>Devenez franchisé</h2>
+          <p>Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis tunc Honoratus fixa constantia restitisset</p>
+        <h2>Nous rejoindre</h2>
+          <p>Advenit post multos Scudilo Scutariorum tribunus velamento subagrestis ingenii persuasionis opifex callidus. qui eum adulabili sermone seriis admixto solus omnium proficisci pellexit vultu adsimulato saepius replicando quod flagrantibus votis eum videre frater cuperet patruelis, siquid per inprudentiam gestum est remissurus ut mitis et clemens, participemque eum suae maiestatis adscisceret, futurum laborum quoque socium, quos Arctoae provinciae diu fessae poscebant.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+<!-- Callout section start -->
+
+	<section id="callout-three" class="callout parallax">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+				</div>
+			</div><!-- /.row -->
+
+		</div><!-- /.container -->
+	</section>
+
+	<!-- Callout section end -->
+
+
+
+  <div class="container" id="job">
+
+    <div class="row">
+
+      <div class="col-lg-6 chapter">
+        <h2>Cuisinier H/F</h2>
+          <p>Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis tunc Honoratus fixa constantia restitisset</p>
+        <h2>Serveur/Serveuse</h2>
+          <p>Advenit post multos Scudilo Scutariorum tribunus velamento subagrestis ingenii persuasionis opifex callidus. qui eum adulabili sermone seriis admixto solus omnium proficisci pellexit vultu adsimulato saepius replicando quod flagrantibus votis eum videre frater cuperet patruelis, siquid per inprudentiam gestum est remissurus ut mitis et clemens, participemque eum suae maiestatis adscisceret, futurum laborum quoque socium, quos Arctoae provinciae diu fessae poscebant.</p>
+      </div>
+
+      <div class="col-lg-4 col-lg-offset-2 chapter">
+        <h2>répondre à une annonce</h2>
+
+      <form>
+          <div class="form-group">
+            <input type="text" class="form" id="inputPrenom" placeholder="Prénom">
+            <input type="text" class="form" id="inputNom" placeholder="Nom">
+            <input type="text" class="form" id="inputAdresse" placeholder="Adresse">
+            <input type="text" class="form" id="inputCodePostal" placeholder="Code postal">
+            <input type="text" class="form" id="inputVille" placeholder="Commune">
+            <input type="text" class="form" id="inputTelephone" placeholder="Téléphone">
+            <input type="text" class="form" id="inputEmail" placeholder="E-mail">
+            <input type="text" class="form" id="inputEmail" placeholder="Numéro de l'annonce">
+    				<textarea class="form" id="exampleTextarea" rows="3" placeholder="Parlez-nous de votre motivation en quelques mots."></textarea>
+            <button type="button" class="btn btn-primary btn-sm">Postuler</button>
+  				</div>
+			</form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container" id="contact">
+    <div class="row">
+      <div class="col-lg-offset-3 col-lg-6 col-lg-offset-3 chapter">
+        <h2>nous contacter :</h2>
+        <p>Les Restaurants atypiques</br>
+        17 rue Delandine, 69002 Lyon</p>
+        <p>contact@restoatypiques.com</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Button trigger modal -->
+<!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>-->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">nous contacter :</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Les Restaurants atypiques</br>
+        17 rue Delandine, 69002 Lyon</p>
+        <p>contact@restoatypiques.com</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- footer -->
+<div class="container">
+	<div class="row footer">
+      <div class="col-md-12 text-center">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-google-plus" aria-hidden="true"></i>
+
+
+
+        <p>© 2017 <a href="#">Les Restaurants atypiques</a>, tous droits réservés.</p>
+
+
+
+
+      </div>
+    </div>
+</div>
+
+
+</div>
+<!-- /navigation -->
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+
+
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
 </html>
+
+
+
+<!-- todo :
+
+- colorisation des éléments de menu en fonction du contexte -> ok mais erreurs console et pas de scroll fluide
+
+- menu apparaît quand on scrolle : https://oscarotero.com/jquery/ ou http://www.mycookroom.ru/mywork/Leaff/Leaff-v1.4/Site/nav-default.html
+
+- modal restaurants ??
+
+- parallax -> ok (refaire le premier ?)
+
+- footer http://www.mycookroom.ru/mywork/Leaff/Leaff-v1.4/Site/nav-default.html
+
+- affichage et interaction sur les formulaires
+
+- fond carte : moins haut ?
+
+- carte en responsive ?
+
+-->

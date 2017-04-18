@@ -1,0 +1,1 @@
+$('#logo').animate({boxShadow: '0 0 30px #44f'});

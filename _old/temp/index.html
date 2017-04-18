@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title></title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        
+    </style>
+</head>
+<body>	
+	<div class="container">
+        <div style="background-color:yellow;">Jaune</div>
+        <div style="background-color:red;">Rouge</div>
+        <div style="background-color:blue; color:white">Bleu</div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        var collection = $("div.container div").get();
+        collection.sort(function() {
+            return Math.random()*10 > 5 ? 1 : -1;
+        });
+        $.each(collection,function(i,el) {
+            $(el).appendTo( $(el).parent() );
+        });
+    });
+    </script>
+</body>
+</html>
