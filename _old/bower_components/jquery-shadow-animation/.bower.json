@@ -1,0 +1,36 @@
+{
+  "name": "jquery-shadow-animation",
+  "version": "1.11.0",
+  "description": "Animate all aspects of a shadow: the color, the x- and y-offset, the blur-radius and spread-radius.",
+  "main": "./jquery.animate-shadow.js",
+  "ignore": [],
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "animation",
+    "shadow",
+    "glow",
+    "effect"
+  ],
+  "authors": [
+    "Edwin Martin <edwin@bitstorm.org>"
+  ],
+  "homepage": "http://www.bitstorm.org/jquery/shadow-animation/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edwinm/Shadow-animation-jQuery-plugin.git"
+  },
+  "dependencies": {
+    "jquery": ">=1.8"
+  },
+  "_release": "1.11.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.11.0",
+    "commit": "276840f0d7105d49cd349bdd0c9a959b7fdca593"
+  },
+  "_source": "https://github.com/edwinm/Shadow-animation-jQuery-plugin.git",
+  "_target": "^1.11.0",
+  "_originalSource": "jquery-shadow-animation",
+  "_direct": true
+}
