@@ -3,6 +3,10 @@ h2 {
   font-weight: 800;
 }
 
+.contactItem {
+  cursor: pointer;
+}
+
 /* Custom container */
 .container-full {
   margin: 0 auto;
@@ -77,7 +81,7 @@ h2 {
   padding-top: 100px;
 }
 
-.chapter > h2, .descRestau > h2 {
+.chapter > h2, .descRestau > h2, .modal-header > h2 {
   font-family: 'Dancing Script', cursive;
 }
 
@@ -197,7 +201,7 @@ img[usemap] {
     body{
         font-size: 18px;
     }
-    .chapter > h2, .descRestau > h2 {
+    .chapter > h2, .descRestau > h2, .modal-header > h2 {
       font-size: 32px;
     }
 }
@@ -206,7 +210,7 @@ img[usemap] {
     body{
         font-size: 16px;
     }
-    .chapter > h2, .descRestau > h2 {
+    .chapter > h2, .descRestau > h2, .modal-header > h2 {
       font-size: 26px;
     }
 }
@@ -215,7 +219,7 @@ img[usemap] {
     body{
         font-size: 12px;
     }
-    .chapter > h2, .descRestau > h2 {
+    .chapter > h2, .descRestau > h2, .modal-header > h2 {
       font-size: 18px;
     }
 }
@@ -224,7 +228,7 @@ img[usemap] {
     body{
         font-size: 10px;
     }
-    .chapter > h2, .descRestau > h2 {
+    .chapter > h2, .descRestau > h2, .modal-header > h2 {
       font-size: 16px;
     }
 }
@@ -435,4 +439,11 @@ input {
 .social-links li {
 	display: inline-block;
 	margin: 0 5px;
+}
+
+
+/*Modal Contact*/
+
+.modal-header > h2, .modal-body {
+  text-align: center;
 }
